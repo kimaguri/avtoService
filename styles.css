@@ -267,3 +267,265 @@ p {
     padding: 15px;
 }
 
+.request {
+    margin-top: 130px;
+}
+
+.request__wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.request__title {
+    line-height: 70px;
+    vertical-align: middle;
+    width: 100%;
+    height: 70px;
+    background-color: #db0909;
+    color: #fff;
+    font-weight: 700;
+    font-size: 24px;
+    padding-left: 50px;
+}
+
+.request__content {
+    display: flex;
+    flex-direction: row;
+    height: 300px;
+    box-shadow: 0 0 2px 0 rgb(0 0 0 / 10%);
+    padding-left: 50px;
+    padding-top: 30px;
+    background-color: #fff;
+    background-image: url('./images/rio.webp');
+    background-repeat: no-repeat;
+    background-size: 490px;
+    background-position: right bottom;
+}
+
+.request__content-wrapper {
+    flex: 0 0 50%;
+    font-size: 15px;
+}
+
+.request__content-subtitle {
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.request__content-text {
+    margin-bottom: 30px;
+}
+
+.request__form {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.request__form-input {
+    margin-right: 15px;
+    border: 1px solid #eaedf2;
+    background-color: #f6f7f9;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.request__form-button {
+    width: 140px;
+    height: 50px;
+    background-color: #db0909;
+    border: 1px solid #db0909;
+    color: #fff;
+}
+
+.request__content-comment {
+    font-size: 12px;
+    color: #888889;
+}
+
+.carcase {
+    margin-top: 130px;
+    background-image: url('./images/carcase.jpg');
+    background-repeat: no-repeat;
+    background-size: 850px;
+    background-position: 90% 0;
+}
+
+.carcase__main {
+    display: flex;
+    height: 500px;
+}
+
+.carcase__content {
+    flex: 0 0 55%;
+}
+
+.carcase__title {
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+
+.carcase__text {
+    font-size: 15px;
+}
+
+.carcase__p {
+    margin-top: 20px;
+}
+
+.carcase__subtitle {
+    color: #db0909;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 45px;
+}
+
+.evacuation {
+    margin-top: 130px;
+}
+
+.evacuation__content {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    background-image: url('./images/evacuation.webp');
+    background-repeat: no-repeat;
+    background-size: 490px;
+    background-position: right bottom;
+}
+
+.evacuation__content-wrapper {
+    flex: 0 0 50%;
+    font-size: 15px;
+}
+
+.evacuation__content-subtitle {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.evacuation__span {
+    color: #db0909;
+}
+
+.evacuation__content-text {
+    margin-bottom: 30px;
+}
+
+.evacuation__form {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 30px;
+}
+
+.evacuation__form-input {
+    margin-right: 15px;
+    border: 1px solid #eaedf2;
+    background-color: #fff;
+    height: 50px;
+    padding-left: 15px;
+}
+
+.evacuation__form-button {
+    width: 140px;
+    height: 50px;
+    background-color: #db0909;
+    border: 1px solid #db0909;
+    color: #fff;
+}
+
+.evacuation__content-comment {
+    font-size: 12px;
+    color: #888889;
+}
+
+.footer {
+    height: 200px;
+    margin-top: 120px;
+    background-color: #eff0f2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__col {
+    display: flex;
+}
+
+.footer__info {
+    flex: 0 0 40%;
+}
+
+.footer__logo {
+    width: 100px;
+}
+
+.footer__info-text {
+    color: rgb(65, 67, 71);
+    font-size: 12px;
+}
+
+.footer__icon {
+    width: 20px;
+}
+
+.footer__contacts {
+    margin-right: 30px;
+}
+
+.footer__phones {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.footer__phones-icon {
+    width: 15px;
+    margin-right: 15px;
+    margin-top: 5px;
+}
+
+.footer__phones-list {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.footer__phones-item {
+
+}
+
+.footer__phones-hours {
+    font-size: 13px;
+    font-style: normal;
+    color: #414347;
+}
+
+.footer__address {
+    display: flex;
+}
+
+.footer__address-icon {
+    width: 15px;
+    margin-right: 15px;
+}
+
+.footer__address-text {
+    font-size: 15px;
+    font-style: normal;
+    color: #414347;
+}
+
+.social__list {
+    display: flex;
+}
+.social__item {
+    margin-right: 10px;
+}
+
